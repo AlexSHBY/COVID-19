@@ -1,0 +1,844 @@
+body{
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 250, 250);
+}
+.wrap-home{
+    max-width: 1920px;
+    margin: auto;
+    background-image: url(../img/bg-home.png);
+    background-repeat: no-repeat;
+    background-position: top 50% right;
+    background-size: 60%;
+    background-color: rgb(255, 242, 242);
+}
+.container-home{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    display: block;
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    text-transform: uppercase;
+    
+    color: #035755;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-link{
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 42px;
+    color: #035755;
+    text-decoration: none;
+    margin-left: 44px;
+    display: block;
+}
+.menu-link:after{
+    content: '';
+    display: block;
+    position: relative;
+    margin: auto;
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.menu-link:hover:after{
+    background-color:#FB4C47;
+}
+.menu-link:hover{
+    color: #FB4C47;
+}
+.menu-link-contact{
+    margin-left: 44px;
+    border: 2px solid #FB4C47;
+    border-radius: 46px;
+    padding: 16px 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FF383D;
+    text-decoration: none;
+}
+.menu-link-contact:hover{
+    background-color: rgba(255, 56, 63, 0.205);
+}
+.content-home{
+    max-width: 633px;
+    width: 50%;
+    margin-top: 20%;
+    padding-bottom: 20%;
+}
+.sub-title{
+    font-weight: bold;
+   font-size: 32px;
+   line-height: 122%;
+   color: #FA5652;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 139%;
+    text-transform: capitalize;
+    color: #035755;
+}
+.text{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 190%;
+    text-transform: capitalize;
+    color: #4B4F51;
+}
+.content-home button{
+    background: #FB4C47;
+    box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+    border-radius: 65px;
+    padding: 25px 60px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+}
+
+.content-home button:active,
+.content-home button:focus {
+    outline: none;
+}
+
+.content-home button:-moz-focus-inner {
+    border: 0;
+}
+.wrap-about{
+    max-width: 1920px;
+    margin: auto;
+    background: url(../img/about-bg-right.png)  no-repeat bottom right;
+    background-size: 10%;
+    background-color: rgb(255, 242, 242);
+}
+
+.container-about{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-img{
+    width: 60%;
+    max-width: 979px;
+    margin-left: -18%;
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+}
+.content-about{
+    max-width: 648px;
+    margin-left: auto;
+    width: 40%;
+}
+.about-more{
+    display: none;
+}
+.content-about button{
+    background:rgba(250, 86, 82, 0.15);
+    box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+    border-radius: 65px;
+    padding: 25px 60px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    color:  #FB4C47 ;
+
+}
+
+.content-about button:active,
+.content-about button:focus {
+    outline: none;
+}
+
+.content-about button:-moz-focus-inner {
+    border: 0;
+}
+.wrap-contagion{
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 5%;
+    background-image: url(../img/bg-cards.png);
+    background-repeat: no-repeat;
+    background-position: bottom 15% left 5%;
+    background-color: rgb(255, 242, 242);
+}
+.container-contagion{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+}
+.container-contagion h2,.container-contagion h1,.container-contagion p{
+    text-align: center;
+    margin: auto;
+    max-width: 716px;
+}
+.cars-wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: auto;
+    max-width: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding-top: 369px;
+    padding-bottom: 74px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.card:hover{
+    border-bottom: 10px solid #FA5652;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 147%;
+    text-transform: capitalize;
+    color: #035755;
+    text-align: center;
+}
+.card-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 185%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4B4F51;
+
+}
+.card:nth-child(1){
+    background-image: url(../img/card1.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center top 60px;
+}
+.card:nth-child(2){
+    background-image: url(../img/card2.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center top 20px;
+}
+.card:nth-child(3){
+    background-image: url(../img/card3.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center top 40px;
+}
+.wrap-symptomps{
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 5%;
+    background: url(../img/symptop-wrap-bg-right.png)  no-repeat bottom right,  url(../img/symptop-wrap-bg-left.png)  no-repeat bottom left;
+    background-color: rgb(255, 242, 242);
+}
+.container-symptomps{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+}
+.container-symptomps h1,.container-symptomps h2,.container-symptomps p{
+    text-align: center;
+    margin: auto;
+    max-width: 716px;
+}
+.container-symptomps p{
+    margin-bottom: 5%;
+}
+.symptomps{
+    padding-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../img/symptomp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000px;
+    width: 1100px;
+    margin: auto;
+}
+.left{
+   margin-left: 70px;
+}
+.right{
+   margin-right: 60px;
+}
+.symptomp{
+    background-color: rgba(255, 56, 63, 0.15);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.symptomp span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FA5652;
+    display: block;
+}
+.fever{
+margin-top: 0px;
+margin-left: -10px;
+}
+.throat-pain{
+margin-top: 90px;
+margin-left: -10px;
+}
+.dypsnoea{
+margin-top: 80px;
+margin-left: -10px;
+}
+.headache{
+margin-top: -40px;
+}
+.runny-nose{
+margin-top: 80px;
+}   
+.shaking-chills{
+margin-top: 90px;
+}
+.wrap-prevention{
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 5%;
+    background: url(../img/bg-blog-left.png)  no-repeat top 20% left,  url(../img/bg-blog-right.png)  no-repeat bottom right;
+    background-color: rgb(255, 242, 242);
+}
+.container-prevention{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+} 
+.container-prevention h2,.container-prevention h1,.container-prevention p{
+    text-align: center;
+    margin: auto;
+    max-width: 716px;
+}
+.container-prevention p{
+   margin-bottom: 10%;
+}
+.blog-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.blog{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.blog-content{
+    max-width: 532px;
+    min-width: 250;
+    margin-right: auto;
+
+}
+.blog-img{
+    max-width: 555px;
+    min-width: 200px;
+    width: 90%;
+
+}
+.number span{
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #FA5652;
+    text-align: center;
+
+}
+.number{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(250, 85, 82, 0.150);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}    
+.contact-wrap{
+    padding-top: 4%;
+    max-width: 1920px;
+    margin: auto;
+    background-color: rgb(255, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.contact-title{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #0C6C44;
+    max-width: 761px;
+    margin: auto;
+}
+.email{
+    margin-top: 6%;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #758681;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 57px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 41px;
+    padding-right: 17px;
+
+}
+.send{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #F44A45;
+    border-radius: 157px;
+    padding: 26px 80px;
+    margin-left: 258px;
+    border: none;
+    cursor: pointer;
+}
+.send:active,
+.send:focus {
+    outline: none;
+}
+
+.send:-moz-focus-inner {
+    border: 0;
+}
+.footer-wrap{
+    max-width: 1920px;
+    margin: auto;
+    background-color: rgb(250, 85, 82, 0.150);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-content{
+    max-width: 1435px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-link-footer{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+    color: #00402E;
+    margin-right: 45px;
+}
+.menu-link-footer:hover{
+    color: #F44A45;
+}
+.social-link{
+    text-decoration: none;
+}
+.social-link:not(last-child){
+    margin-left: 45px;
+}
+.up{
+    position: fixed;
+    width: 40px;
+    background-color:#F44A45 ;
+    padding: 20px 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 99997;
+    bottom: 50px;
+    right: 50px;
+}
+.close{
+    display: none;
+}
+
+@media(max-width:1600px){
+    .card{
+        max-width: 250px;
+        border-radius: 10px;
+        padding-top: 300px;
+        padding-bottom: 74px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .card-title{
+        font-size: 28px;
+    }
+    .sub-title{
+       font-size: 28px;
+    }
+    .title{
+        font-size: 38px;
+    }
+    .text{
+        font-size: 22px;
+    }
+}
+@media(max-width:1400px){
+    .left{
+        margin-left: 70px;
+        margin-top: 20px;
+     }
+     .right{
+        margin-right: 60px;
+        margin-top: 20px;
+     }
+}
+@media(max-width:1236px){
+    .menu-link,
+    .menu-link-contact,
+    .menu-link-footer{
+        font-size: 18px;
+    }
+    .menu-link{
+        margin-left: 25px;
+    }
+    .menu-link-footer{
+        margin-right: 25px;
+    }
+    .content-about button, .content-home button{
+        font-size: 20px;
+    }
+    .sub-title{
+       font-size: 22px;
+    }
+    .title{
+        font-size: 28px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .card{
+        max-width: 200px;
+        border-radius: 10px;
+        padding-top: 250px;
+        padding-bottom: 74px;
+        padding-left: 60px;
+        padding-right: 60px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .card-title{
+        font-size: 22px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .left{
+        margin-left: 70px;
+        margin-top: 30px;
+     }
+     .right{
+        margin-right: 60px;
+        margin-top: 30px;
+     }
+     .contact-title{
+        font-size: 28px;
+        line-height: 2;
+        max-width: 300px;;
+    }
+    .email{
+        font-size: 18px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+    
+    }
+    .send{
+        font-size: 18px;
+        padding: 15px 40px;
+        margin-left: 170px;
+    }
+    .blog-img{
+        width: 50%;
+        max-width: 350px;
+    }
+
+    .symptomps{
+        background-size: 700px;
+        width: 800px;
+    }
+    .left{
+       margin-left: 60px;
+       margin-top: -30px;
+    }
+    .right{
+       margin-right: 50px;
+       margin-top: 3px;
+    }
+    .symptomp{
+        width: 90px;
+        height: 90px;
+        margin-bottom: 30px;
+    }
+    .symptomp span{
+        font-size: 14px;
+    }
+    .fever{
+    margin-top: 10px;
+    margin-left: -10px;
+    }
+    .throat-pain{
+    margin-top: 60px;
+    margin-left: 0px;
+    }
+    .dypsnoea{
+    margin-top: 50px;
+    margin-left: -10px;
+    }
+    .headache{
+    margin-top: -60px;
+    }
+    .runny-nose{
+    margin-top: 60px;
+    margin-left: -10px;
+    }   
+    .shaking-chills{
+    margin-top: 50px;
+    }
+}
+@media(max-width:1100px){
+    .symptomps{
+        background-size: 700px;
+        width: 800px;
+    }
+    .left{
+       margin-left: 60px;
+       margin-top: -20px;
+    }
+    .right{
+       margin-right: 50px;
+       margin-top: 20px;
+    }
+}
+@media(max-width:960px){
+    .symptomps{
+        background-size: 700px;
+        width: 800px;
+    }
+    .left{
+       margin-left: 60px;
+       margin-top: -10px;
+    }
+    .right{
+       margin-right: 50px;
+       margin-top: 30px;
+    }
+}
+@media(max-width:860px){
+    .symptomps{
+       background-image: none;
+       justify-content: space-evenly;
+       width: 100%;
+    }
+    .symptomp{
+        width: 140px;
+        height: 140px;
+    }
+    .symptomp span{
+        font-size: 20px;
+    }
+    .left{
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .right{
+      margin-top: 0;
+      margin-right: 0;
+    }
+    .fever,
+    .throat-pain,
+    .dypsnoea,
+    .headache,
+    .runny-nose,
+    .shaking-chills{
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #F4B9B9;
+        z-index: 99998;
+    }
+    .menu-wrap{
+        display: none;
+    }
+    .menu-link{
+        display: block;
+    }
+    .close{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        z-index: 99999;
+        display: block;
+    }
+}
+@media(max-width:750px){
+    .content-about button, .content-home button{
+        font-size: 14px;
+    }
+    .sub-title{
+       font-size: 18px;
+    }
+    .title{
+        font-size: 22px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .number span{
+        font-size: 16px;
+    }
+    .number{
+        width: 30px;
+        height: 30px;
+    }
+    .social-link:not(last-child){
+        margin-left: 20px;
+    }
+    .up{
+        padding: 10px 10px;
+        width: 30px;
+        bottom: 30px;
+        right: 30px;
+    }
+}
+@media(max-width:560px){
+    .wrap-home{
+        background-position: top 50px right;
+        background-size: 250px;
+    }
+    .content-home{
+        margin-top: 200px;
+        max-width: 350px;
+        width: 60%;
+    }
+    .about-img{
+        display: none;
+    }
+    .content-about{
+        width: 60%;
+        margin: auto;
+    }
+    .content-about h2, .content-about h1, .content-about p, .content-about button{
+        text-align: center;
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .blog-wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-content{
+        width: 250px;
+        margin: auto;
+    }
+    .blog-img{
+        width: 200px;
+        margin: auto;
+    }
+    .blog2, .blog4{
+        flex-wrap: wrap-reverse;
+    }
+    .contact-title{
+        font-size: 18px;
+        line-height: 1.4;
+        max-width: 200px;;
+    }
+    .email{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .send{
+        font-size: 18px;
+        padding: 15px 40px;
+        margin-left: 40px;
+    }
+    
+}
