@@ -807,8 +807,10 @@ margin-top: 90px;
     .content-about h2, .content-about h1, .content-about p, .content-about button{
         text-align: center;
         margin: auto;
-        display: block;
         margin-bottom: 20px;
+    }
+    .content-about button{
+        display: block;
     }
     .blog-wrap{
         flex-wrap: wrap;
@@ -832,13 +834,15 @@ margin-top: 90px;
         max-width: 200px;;
     }
     .email{
-        font-size: 18px;
-        padding-left: 10px;
+        font-size: 16px;
+        padding-left: 15px;
     }
     .send{
-        font-size: 18px;
-        padding: 15px 40px;
-        margin-left: 40px;
+        font-size: 16px;
+        padding: 15px 30px;
+        margin-left: 30px;
     }
-    
+    .social-link:not(last-child){
+        margin-left: 15px;
+    }
 }
